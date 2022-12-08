@@ -16,6 +16,7 @@ int ReleaseArray(int[] arr)
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
     {
+        
     result = arr[i] % 2;
     if ( result == 0)
             count++;
