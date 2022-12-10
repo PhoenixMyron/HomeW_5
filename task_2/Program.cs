@@ -15,17 +15,11 @@ void PrintArray(int[] arr)
 
 int ReleaseArray(int[] arr)
 {
-    int result = 0;
-    int count = 0;
     int summ = 0;
-    for (int i = 0; i < arr.Length; i++)
-    {
-    result = arr[i] % 2;
-    if ( result != 0)
+    for (int i = 1; i < arr.Length; i+=2)
      {
         summ += arr[i];
      }
-    }
   return summ;
 }
 
